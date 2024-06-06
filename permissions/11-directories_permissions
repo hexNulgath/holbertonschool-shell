@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod R-444 d*/.
+chmod -R 444 d*/.
