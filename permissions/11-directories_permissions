@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 444 type d ./
+find type -d  -user {guillaume} -name {hello} exec chmod a+x
