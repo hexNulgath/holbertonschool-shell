@@ -1,2 +1,2 @@
-#!/ibin/bash
+#!/bin/bash
 find ./  -user {guillaume} -name {hello} exec chown guillaume vincent 
