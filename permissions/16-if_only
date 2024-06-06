@@ -1,2 +1,2 @@
-#!/bin/bash
-if [ $(stat -c %U hello)='guillaume' ] then chown vincent hello fi
+#!/ibin/bash
+find ./  -user {guillaume} -name {hello} exec chown guillaume vincent 
